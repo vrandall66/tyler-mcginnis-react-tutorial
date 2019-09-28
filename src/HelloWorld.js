@@ -1,5 +1,5 @@
 import React from 'react';
-import './HelloWorld.css';
+import './src/HelloWorld.css';
 import HelloUser from './HelloUser';
 
 class HelloWorld extends React.Component {

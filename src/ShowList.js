@@ -6,11 +6,15 @@ class ShowList extends React.Component {
       <div>
         <h3> Friends </h3>
         <ul>
-          {this.props.names.map((friend) => <li>{friend}</li>)}
+          {this.props.names.map((friend) => <li> {friend} </li>)}
         </ul>
       </div>
     )
   }
+}
+
+ShowList.defaultProps = {
+  names: []
 }
 
 export default ShowList;
